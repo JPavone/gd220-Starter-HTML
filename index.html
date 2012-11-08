@@ -22,19 +22,119 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+       <div class="container">
+       <ul id="nav">
+	       <li><a href="default.asp">Home</a></li>
+	       <li><a href="know_your_ballot.asp">Know Your Ballot</a></li>
+	       <li><a href="register_to_vote.asp">Register to Vote</a></li>
+	       <li><a href="about.asp">About</a></li>
+	       <li><a href="login.asp">Login</a><li>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		</ul>
+       
+        <ul class="nav columns ten"> 
+       
+       
+       
+       <div id="header" class="clearfix">
+       
+      <h1 id="logo" class="columns four"> <!-- this refers to 16 column grid in framework -->
+      <a href="index.html">
+      <img src="img/cat.jpg" alt="cat" width="400" height="1000
+      ">
+      </a>
+      </h1>
+       
+       
+   
+      
+     
+       <div id="content" class="clearfix">
+       
+       <ol class="progress">
+       <li>Step 1</li>
+       <li>Step 2</li>
+       <li>Step 3</li>
+       </ol>
+        
+       <form action="" method="get" class="columns twelve">
+       
+       <fieldset id="name">
+       <legend>Your Name</legend>
+       <div class="control columns four alpha">
+       <label for="first"> First Name </label>
+       <input type="text" name="first" id="first" class="required">
+       </div>
+       
+       <div class="control columns four omega">
+       <label for="last">Last name</label>
+       <input type="text" name="last" id="last" class="required">
+      </div>
+       </fieldset>
+       
+       
+       <fieldset id="email" class="alpha columns eight">
+       <legend>Email address</legend>
+       <label for="email">Email</label>
+       <input type="text" name="email" id="email" class="required email">
+       </fieldset> 
+      
+      
+       <fieldset id="login-submit" class="alpha columns eight">
+        <legend>Submit Login</legend>
+       <label for="continue">Continue</label> 
+        <input type="submit" name="continue" 
+        id="continue" value="continue">   <!-- value is used to change the text within the continue button -->
+      </fieldset>
+       </form>
+
+
+       <div class="columns five" id="column-1">
+       Column 1
+       <p>  loafe and invite my soul,
+I lean and loafe at my ease observing a spear of summer grass.
+
+My tongue, every atom of my blood, form'd from this soil,
+     this air
+       </p>
+       </div>
+       
+       <div class="columns five" id="column-2">
+       Column 2
+         <p>  loafe and invite my soul,
+I lean and loafe at my ease observing a spear of summer grass.
+My tongue, every atom of my blood, form'd from this soil,
+     this air
+       </p>
+       </div>
+     
+       <div class="columns five" id="column-3">
+       Column 3 
+         <p>  loafe and invite my soul,
+I lean and loafe at my ease observing a spear of summer grass.
+
+My tongue, every atom of my blood, form'd from this soil,
+     this air
+       </p>
+       </div>
+       
+       <div id="footer" class="clearfix">
+       </div>
+       
+       </div>
+       
+       
+       
+              
+       
+       
+     
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+       <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
+       
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+            </body>
 </html>
