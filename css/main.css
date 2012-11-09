@@ -2,134 +2,125 @@
 	background-color: white;
 }
 
+#nav-bar {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+   } 
 
-#nav {
-	font: avenir;
-	text-transform: uppercase; 
-	width: 100%;
-	float: left;
-	padding: 0;
-	list-style: none;
-	background-color: yellow;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+#nav-bar li {
+	display: inline;
+   }
+
+#nav-bar a:link {
+   color:black;
+   font-family: avenir;
+   padding: 8px 15px;
+   text-decoration: none;
+   font-family: avenir;
+   font-size: 15px;
+   text-transform: uppercase;  
 }
 
-#nav li {
-	float: left;
+#nav-bar a:hover {
+    color:#00B2EE; /*unvisited link*/
+}
+ /*is there a quicker way to do this?*/
+  
+#nav-bar a:visited {
+       color:red; /*visited link*/
 }
 
 
-# nav li a {
-	display: block;
-		padding: 8px 15px;
-		text-decoration: none;
-		font-weight: bold;
-		color: #069;
-		border-right: 1px solid #ccc;
+#nav-bar .here a:link {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
-a.link {  /*is there a quicker way to do this?*/
-  color:#000000; /*unvisited link*/
+
+#logo-info h1 {
+    text-transform: uppercase;
+    font-family: avenir;
+    text-align: center;
+    color:#00B2EE;
+    font-size:30px;
+    font-weight: bolder;
 }
-a:visited {
-       color:#FF7F50; /*visited link*/
-	}
+
+#logo-info h2 {
+color: #FF7F24;  
+font-size:28px; 
+font-family: avenir; 
+line-height: 34px;
+ }
+
+#logo-info p {
+    color: black;
+    font-size:18px;
+    font-family: avenir;
+    text-align:justify; 
+    line-height: 25px;   
+}
+
+#main-logo img{
+float:right;
+}  /*why isn't this working?*/
+
+ 
+#ballot-pg {
+  padding-top:350px;
+   background-color:red; 
+   }
+
+#ballot-pg h3 {
+    font-family: avenir;
+    background-color:#FF7F24;
+    color:white;  
+    font-size:30px;  
+    text-align: left; 
+    padding:10px 70px 7px 10px;
+   }
+
+#ballot-pg h4 {
+font-family: avenir;
+}
+
+#nat-issues ol {
+     list-style: none;
+}
+
+
+
+#nav-bar ol li {
+  font-family: avenir;
+    text-align: center;
+    color:#00B2EE;       
+}
+
+#nat-issues {
+list-style-type: none;
+}
+
+#nat-issues li {
+font-family: avenir;
+font-size: 20px;
+}
+
+.interior {
+	background: green;
+}
+
+.interior #content h3 {
+	background: orange;
+}
+
+.registration {
+	background: yellow;
+}
+
+#@media only screen and (max-width: 400px) {
 	
-a:hover {
-    color: #00FFFF;
-}
-
-a {
-	text-decoration: none;
-}
-
-
-#logo {
-	background: red;
-	width: 200px;
-}
 #header .nav {
-	float: right;
-	background: pink;
-}
-
-#header .nav li {
-	float: left;
-	margin-right: 10px;
-}
-
-.progress {
-	list-style: none;
-}
-
-
-#content .progress {  /*the . in progress targets the class of progress*/
-	float: right;
-}
-
-label {
-	font-size: 9px;
-	text-transform: uppercase;
-	letter-spacing: .2em;
-	color:#8e8d8d;
-}
-
-#login-submit {
-	clear: left;
-	padding-top: 15px;
-	border-top: 1px solid #eee;
-}
-
-label.error {
-	text-transform: inherit;
-	letter-spacing: 0;
-	color: #dc4545;
-	font-size: 16px;
-	font-weight: 500;
-}
-
-input[type="text"].error {
-	color: #fff;
-	background: #faa;
-}
-
-#login-submit label,
-legend {
-	display:none;
-}
-
-input[type="text"]
- {
- font-size: 21px;
- border-color: none;
- background-color: #eee;
-}
-
-
-input[type="text"]:focus {
-	color:#279fc7;
-	border: none;
-	outline: none;	
-}
-
-input[type="submit"],
-input [type="submit"]:hover {
-	font-size: 10px;
-	text-transform: uppercase;
-	letter-spacing: .2em;
-	border: none;
-	color:#fff;
-	background:#00ddff;  
-}
-
-input[type="submit"]:hover {
-	background: #6666ec;
-}
-
-@media only screen and (max-width: 400px) {
-	
-	#header .nav {
 		width: 100px;
 		background: red;
 	}

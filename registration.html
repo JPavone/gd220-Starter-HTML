@@ -15,62 +15,85 @@
         <link rel="stylesheet" href="css/framework.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-        </head>
-        <body>
+    </head>
+    <body class="interior registration">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
       
-    <div class="container">   <!-- every site should have this=standard -->
-
-  
-    <div id=header>   <!-- every site should have this=standard -->
-    
-    <ul id="nav-bar">    <!-- this could be: class="row" -->
-    <li class="here"><a href="index.html">Home</a></li>   <!-- this here class allows nav bar to change for each page -->
+    <div class="container">
+    <div class="twelve columns">    <!-- what does this do? -->
+        
+      <ul id="nav-bar" class="row">
+        <li><a href="index.html">Home</a></li>   <!-- why asp -->
         <li><a href="issues.html">Know Your Ballot</a></li>
-        <li><a href="registration.html">Register to Vote</a></li>
+        <li class="here"><a href="registration.html">Register to Vote</a></li>
         <li><a href="about.html">About</a></li>
-        </ul>
+      </ul>
        
+ <ul class="nav columns ten" class="row">  <!-- what does this do? -->    
+  <div id="header" class="row">  <!-- what does this do? -->
 
-       <div id="main-logo">
-       <a href="index.html">
-       <img src="img/cat.jpg" alt="cat"></a>
-       </div>
-       
-       <div id="logo-info">
+       <div id="logo-info" class="columns twelve">
        <h1>Felines for a Free America</h1>
        <h2>Empowering cat people to vote their conscience.</h2>
        <p>Felines for a Free America (FFAFA) provides complete online registration and automated vote-by-mail services for Maryland voters. FFAFA also helps voters determine which political candidates best reflect their own views.</p>
        </div>
        
-
+       <div id="main-logo">
+       <a href="index.html">
+       <img src="img/cat.jpg" alt="cat"></a>
+       </div>
         
-   <div id="content">
-  
-    <div class="control columns four alpha">
-    <label for="first"> Log In </label>
-    <input type="text" name="first" id="first" class="required">
+        <div id="content" class="clearfix">
+             
+ <div id="register-vote-pg">
+      <h3>Register to Vote</h3>  
+      
+          
+        <fieldset id="name">
+        <legend>Your Name</legend>
+       
+        <div class="control columns four alpha">
+        <label for="first"> First Name </label>
+        <input type="text" name="first" id="first" class="required">
+        </div>
+       
+       <div class="control columns four omega">
+       <label for="last">Last name</label>
+       <input type="text" name="last" id="last" class="required">
+      </div>
+       </fieldset>
+       
+       <fieldset id="email" class="alpha columns eight">
+       <legend>Email address</legend>
+       <label for="email">Email</label>
+       <input type="text" name="email" id="email" class="required email">
+       </fieldset> 
+
     </div>
+    
+      </div>
+      
+ 
+ 
    
-   <div class="control columns four omega">
-   <label for="last">Get Started</label>
-   <input type="text" name="last" id="last" class="required">
-   </div>
-   </div> <!-- /#content -->
+    
 
-        </div> <!-- end of header container -->
 
+  <div class="row">
+    <div class="twelve columns">
     
      
   
   <!-- Footer -->
   
   <footer class="row">
+    <div class="twelve columns">
       <hr />
         
+      <div class="row">
         <div class="six columns">
           <p>&copy; Felines for a Free America</p>
         </div>
@@ -78,7 +101,7 @@
   </footer>
       
       
-    </div> <!--/.container -->
+      
       
       
         
